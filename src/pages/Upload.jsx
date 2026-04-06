@@ -37,6 +37,8 @@ function UploadPage() {
         fileInputRef.current?.click();
     };
 
+    
+
     const handleFileChange = (e) => {
         const file = e.target.files?.[0];
         if (!file) return;
